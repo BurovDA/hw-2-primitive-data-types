@@ -3,10 +3,9 @@ public class Main {
 
         int ticketPrice = 12650; // Cтоимость билета
         int milePrice = 20; // Количество рублей для получения одной бонусной мили
+        int mileBonus = (ticketPrice / milePrice);
 
-        System.out.println((ticketPrice / milePrice) + " Миль(и) начислено за купленный билет");
-
-        int mileBonus = 632; // Количество бесплатных миль начисленных за купленный билет
+        System.out.println((mileBonus) + " Миль(и) начислено за купленный билет");
 
     }
 }
